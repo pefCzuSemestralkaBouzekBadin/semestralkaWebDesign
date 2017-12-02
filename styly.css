@@ -48,6 +48,11 @@ a:visited {
     text-align: center;
 }
 
+.vLajneBezVystredeni {
+    display: inline-block;
+    width: 100%;
+}
+
 .naStred {
     vertical-align: middle;
 }
