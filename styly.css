@@ -34,8 +34,10 @@ a:visited {
 
 .obtekanyVlevo {
     float: left;
+    margin: 10px;
 }
 
 .obtekanyVpravo {
     float: right;
+    margin: 10px;
 }
