@@ -41,3 +41,24 @@ a:visited {
     float: right;
     margin: 10px;
 }
+
+.vLajne {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.naStred {
+    vertical-align: middle;
+}
+
+.produktyH3 {
+    font-size: 48pt;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.produktyH4 {
+    font-size: 24pt;
+    margin-top: 0px;
+}
