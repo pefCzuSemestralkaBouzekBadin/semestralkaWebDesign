@@ -1,6 +1,37 @@
+html {background: #E3E3E3;
+}
 body {
-    width: 1024px;
+    width: 50rem;
     margin: 0 auto;
+    font-family: tahoma;
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+nav {
+    background-color: black;  
+}
+
+nav a, nav a:visited {
+    color: white;
+    display: block;
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+}
+nav a:hover {
+    color: black;
+    background-color: grey;
+}
+
+section {
+    padding: 1rem 3rem;
+} 
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
 }
 
 h1 {
@@ -10,6 +41,18 @@ h1 {
 
 p {
     text-align: justify;
+}
+.button {
+    color: white;
+    background: #0000FF;
+    border-radius: 0.3rem;
+    box-shadow: none;
+    font-size: 1.2rem;    
+}
+.button:hover {
+    color: #0000FF;
+    background: #E3E3E3;
+    cursor: pointer;
 }
 
 /*odkazy*/
@@ -51,6 +94,11 @@ a:visited {
 .vLajneBezVystredeni {
     display: inline-block;
     width: 100%;
+    padding-right: 3rem;
+}
+
+.vLajneBezVystredeni p{
+    padding-right: 3rem;
 }
 
 .naStred {
@@ -61,9 +109,11 @@ a:visited {
     font-size: 48pt;
     margin-top: 200px;
     margin-bottom: 0px;
+    margin-right: 3rem;
 }
 
 .produktyH4 {
     font-size: 24pt;
     margin-top: 0px;
+    margin-right: 3rem;
 }
