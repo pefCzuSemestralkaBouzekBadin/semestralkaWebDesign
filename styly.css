@@ -22,6 +22,7 @@ nav a, nav a:visited {
     font-size: 1.5rem;
     text-align: center;
 }
+
 nav a:hover {
     color: black;
     background-color: grey;
@@ -81,45 +82,116 @@ a:visited {
 
 .obtekanyVlevo {
     float: left;
-    padding: 0.15rem;
+    height: 50%;
+    width: 50%;
 }
 
 .obtekanyVpravo {
     float: right;
-    padding: 0.15rem;
-    position: relative;
-    left: -3rem;
 }
 
 .vLajne {
     display: inline-block;
-    width: 100%;
     text-align: center;
 }
 
 .vLajneBezVystredeni {
     display: inline-block;
-    width: 50rem;
     padding-left: 3rem;
 }
 
-.vLajneBezVystredeni p{
-    padding-right: 6rem;
-}
-
 .naStred {
-    vertical-align: middle;
+    display: block;
+    margin: auto;
 }
 
 .produktyH3 {
     font-size: 3rem;
-    margin-top: 10rem;
+    margin-top: 1rem;
     margin-bottom: 0rem;
-    margin-right: 3rem;
+    text-align: center;
 }
 
 .produktyH4 {
     font-size: 1.5rem;
     margin-top: 0rem;
-    margin-right: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#uvod {
+    display: table;
+}
+
+.radek {
+    display: rable-row;
+}
+
+.bunka {
+    display: table-cell;
+    width: 16.67rem;
+}
+
+@media only screen and (max-width: 768px) {
+    /* pro mobily */   
+    body {
+        font-size: 2rem;
+    }
+    
+    nav a, nav a:visited {
+        font-size: 2rem;
+    }
+    
+    input {
+        height: 4rem;
+        width: 30rem;
+        font-size: 2rem;
+    }
+    
+    textarea {
+        height: 6rem;
+        width: 30rem;
+        font-size: 2rem;
+    }
+    
+    .bunka {
+        display: table-row;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 240px) {
+    body {
+        font-size: 3rem;
+    }
+    
+    nav {
+        background-color: black;
+        display: table;
+        width: 50rem;
+    }
+    
+    nav a, nav a:visited {
+        color: white;
+        display: table-row;
+        line-height: 8rem;
+        padding: 2rem 3rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    .produktyH3 {
+        font-size: 5rem;
+    }
+    
+    .produktyH4 {
+        font-size: 4rem;
+    }
+    
+    .obtekanyVlevo {
+        float: none;
+        height: 100%;
+        width: 100%;
+    }
 }
