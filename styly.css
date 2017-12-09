@@ -77,12 +77,14 @@ a:visited {
 
 .obtekanyVlevo {
     float: left;
-    margin: 10px;
+    padding: 0.15rem;
 }
 
 .obtekanyVpravo {
     float: right;
-    margin: 10px;
+    padding: 0.15rem;
+    position: relative;
+    left: -3rem;
 }
 
 .vLajne {
@@ -93,12 +95,12 @@ a:visited {
 
 .vLajneBezVystredeni {
     display: inline-block;
-    width: 100%;
-    padding-right: 3rem;
+    width: 50rem;
+    padding-left: 3rem;
 }
 
 .vLajneBezVystredeni p{
-    padding-right: 3rem;
+    padding-right: 6rem;
 }
 
 .naStred {
@@ -106,14 +108,14 @@ a:visited {
 }
 
 .produktyH3 {
-    font-size: 48pt;
-    margin-top: 200px;
-    margin-bottom: 0px;
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
     margin-right: 3rem;
 }
 
 .produktyH4 {
-    font-size: 24pt;
-    margin-top: 0px;
+    font-size: 1.5rem;
+    margin-top: 0rem;
     margin-right: 3rem;
 }
