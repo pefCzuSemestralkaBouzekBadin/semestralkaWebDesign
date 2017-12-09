@@ -10,13 +10,17 @@ body {
 
 nav {
     background-color: black;  
+    height: 6rem;
+    display: table;
 }
 
 nav a, nav a:visited {
     color: white;
-    display: block;
+    display: table-cell;
+    width: 12.5rem;
     padding: 2rem 3rem;
     font-size: 1.5rem;
+    text-align: center;
 }
 nav a:hover {
     color: black;
